@@ -1,4 +1,4 @@
-### Possible solutions
+# Possible solutions
 
 ## A (naïve)
 
@@ -23,6 +23,6 @@ Pixel colours can be derived from the ant's path; the time complexity is `O(curr
 About `35000` bits; see `main.rs` for its implementation.
 
 
-### P.S.
+# P.S.
 
 Once the path for 64×64 field is calculated, the ant's movement becomes quite predictable and requiring almost no more RAM; for this field size **A** is the best solution. 
